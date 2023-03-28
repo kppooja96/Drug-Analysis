@@ -1,15 +1,3 @@
-# %% [markdown]
-# # DATA603 Big Data Processing Project 
-# Group 3: Pooja Kangokar Pranesh, Yun-Zih Chen, Elizabeth Cardosa
-# 
-# The goal of this project is leverage big data technologies to train a model using the UCI ML Drug Review dataset to predict the star rating of drug based on the sentiment of the review. This model will then perform inference in a streaming manner on ‘real-time’ reviews coming in. This application can then be used to help potential customers understand the overall sentiment towards a drug and if it might be useful for them. 
-# 
-
-# %%
-# from google.colab import drive
-# drive.mount('/content/drive')
-
-# %%
 working_folder = "gs://spark-drug-analysis/Model_Train/"
 
 # # Install Libraries and Dependencies
